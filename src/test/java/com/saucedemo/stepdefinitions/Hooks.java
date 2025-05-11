@@ -44,6 +44,6 @@ public class Hooks {
         }
 
        //Quit driver after test completion
-       // DriverFactory.quitDriver();
+        DriverFactory.quitDriver();
     }
 }
