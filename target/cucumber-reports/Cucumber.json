@@ -1,0 +1,384 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-05-11T03:56:31.201Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2844000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.AddToCartSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.OrderWithValueSteps.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add 3 items to basket and buy 2 items",
+        "description": "",
+        "id": "add-and-buy-items;add-3-items-to-basket-and-buy-2-items",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.Hooks.takeScreenshotOnFailure(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 614000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_am_on_the_saucedemo_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 176000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter a valid username and password",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_enter_a_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the login button",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 733000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add three items to the cart",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.AddToCartSteps.add_three_items()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 440000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I remove 1 item from the cart",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.AddToCartSteps.remove_one_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.AddToCartSteps.checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 569000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should complete the purchase",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.AddToCartSteps.complete_purchase()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add and buy items",
+    "description": "",
+    "id": "add-and-buy-items",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/saucedemo/features/AddToCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-05-11T03:56:37.579Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.AddToCartSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.OrderWithValueSteps.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Make an order with total between $30 and $60",
+        "description": "",
+        "id": "order-based-on-value;make-an-order-with-total-between-$30-and-$60",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.Hooks.takeScreenshotOnFailure(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_am_on_the_saucedemo_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter a valid username and password",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_enter_a_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 96000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the login button",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I add items to get total between $30 and $60",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.OrderWithValueSteps.add_items_for_total_range()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 317000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.AddToCartSteps.checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the total amount should be between $30 and $60",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.OrderWithValueSteps.verify_total_amount()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Order based on value",
+    "description": "",
+    "id": "order-based-on-value",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/saucedemo/features/OrderWithValue.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-05-11T03:56:38.803Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.AddToCartSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.OrderWithValueSteps.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "login-to-saucedemo;successful-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.Hooks.takeScreenshotOnFailure(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the SauceDemo login page",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_am_on_the_saucedemo_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter a valid username and password",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_enter_a_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the login button",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be redirected to the Products page",
+            "match": {
+              "location": "com.saucedemo.stepdefinitions.LoginSteps.i_should_be_redirected_to_the_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to SauceDemo",
+    "description": "  As a user of SauceDemo\n  I want to be able to log in with valid credentials\n  So that I can access my account and view products",
+    "id": "login-to-saucedemo",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/saucedemo/features/login.feature",
+    "tags": []
+  }
+]

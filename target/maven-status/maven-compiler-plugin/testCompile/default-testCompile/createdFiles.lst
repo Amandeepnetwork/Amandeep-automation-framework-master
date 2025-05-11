@@ -1,0 +1,5 @@
+com\saucedemo\runners\TestRunner.class
+com\saucedemo\stepdefinitions\AddToCartSteps.class
+com\saucedemo\stepdefinitions\OrderWithValueSteps.class
+com\saucedemo\stepdefinitions\Hooks.class
+com\saucedemo\stepdefinitions\LoginSteps.class
