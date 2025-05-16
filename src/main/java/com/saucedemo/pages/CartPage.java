@@ -24,6 +24,7 @@ public class CartPage {
     private By finishButton = By.linkText("FINISH");
     private By completeHeader = By.className("complete-header");
     private By totalLabel = By.className("summary_total_label");
+    private By inventory_item = By.xpath("//div[@class='inventory_item']");
 
     // Methods
     public void addItemsToCart(int count) {
@@ -57,6 +58,10 @@ public class CartPage {
     public double getTotalAmount() {
         String totalText = driver.findElement(totalLabel).getText().replace("Total: $", "");
         return Double.parseDouble(totalText);
+    }
+    public int getCount() {
+        int totalCount = driver.findElements(inventory_item).size();
+        return totalCount;
     }
 }
 
